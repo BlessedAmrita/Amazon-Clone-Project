@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 70px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly; /*noice*/
+    align-items: center;
+    gap: 15px;
+    padding: 3px 5px;
+}
+
+.hover {
+    border: 1.2px solid transparent;
+}
+
+.hover:hover {
+    border: 1.2px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.second-navbar .hover:hover {
+    padding-top: 9px;
+    font-size: 1rem;
+}
+
+.box1 {
+    width: 120px;
+    height: 50px;
+    padding-bottom: 5px;
+}
+
+.logo {
+    width: 100%;
+    height: 50px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+
+.box2 {
+    width: 100px;
+    height: 50px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+}
+
+.deliver {
+    margin-top: 10px;
+    margin-left: 17px;
+    font-size: 0.85rem;
+    color: #CCCCCC;
+}
+
+.address {
+    display: flex;
+    align-items: last baseline;
+}
+
+.address p {
+    margin-left: 5px;
+    font-size: 1.05rem;
+}
+
+.box3 {
+    width: 980px;
+    height: 40px;
+    /* background-color: coral; */
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#box3-select {
+    width: 50px;
+    height: 100%;
+    padding-left: 5px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-style: none;
+    background-color: #E6E6E6;
+    text-align: center;
+    color: #0F1111;
+}
+
+.box3-input {
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    border-style: none;
+    font-size: 1.1rem;
+}
+
+.box3-icon {
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    padding-top: 11px;
+    font-size: 1.2rem;
+    background-color: rgb(255, 191, 0);
+    color: #0F1111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.box4 {
+    height: 50px;
+    width: 75px;
+}
+
+.box5 {
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 50px;
+    width: 140px;
+}
+
+.box5-line1 {
+    font-size: 0.8rem;
+    color: #CCCCCC;
+}
+
+.box5-line2 {
+    display: flex;
+    gap: 4px;
+    font-size: 1rem;
+    align-items: last baseline;
+}
+
+.box5-icon {
+    color: #8d8b8b;
+    font-size: 0.8rem;
+}
+
+.box6 {
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 50px;
+    width: 77px;
+}
+
+.box6-line1 {
+    font-size: 0.8rem;
+    color: #CCCCCC;
+}
+
+.box6-line2 {
+    font-size: 1rem;
+}
+
+.box7 {
+    padding-top: 1px;
+    padding-left: 5px;
+    height: 50px;
+    width: 90px;
+    padding-bottom: 7px;
+    
+}
+.box7-line1-items{
+    color:orange;
+    margin-left: 6px;
+}
+.box7-line2{
+    display: flex;
+    align-items: last baseline;   
+    gap: 4px;
+}
+.box7-icon{
+    font-size: 1.2rem;
+}
+
+/* NAVBAR 2 */
+
+.second-navbar{
+height: 55px;
+background-color: #232F3E;
+color: white;
+display: flex;
+align-items: center;
+gap: 4.5px;
+padding:5px 5px;
+}
+.box21{
+    padding: 8px 9px;
+    width: 60px;
+    height: 45px;
+    display: flex;
+    gap: 5px;
+}
+.box21-icon{
+    font-size: 1.1rem;
+}
+.box22{
+    padding: 8px 9px;
+    width: 120px;
+    height: 45px;
+}
+.box23{
+    padding: 8px 9px;
+    width: 150px;
+    height: 45px;
+}
+.box24{
+    padding: 8px 9px;
+    width: 100px;
+    height: 45px;
+}
+.box25{
+    padding: 8px 9px;
+    width: 100px;
+    height: 45px;
+}
+.box26{
+    padding: 8px 9px;
+    width: 76px;
+    height: 45px;
+}
+.box27{
+    padding: 8px 9px;
+    width: 30px;
+    height: 45px;
+}
+/*hero section*/
+.hero-image{
+    background-image: url("Project_hero_section_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider-group{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1480px;
+}
+.slider{
+    height:280px ;
+    width:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider i{
+font-size: 3rem;
+}
+.hero-msg{
+    height: 40px;
+    width: 1600px;
+    line-height: 40px;
+    background-color: white;
+    color: #0F1111;
+    text-align: center;
+}
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+.content{
+    background:linear-gradient(#D4A3D2,white);
+    height: 800px;
+    display: flex;
+    padding: 0px 18px;
+    justify-content: space-between;
+}
+.container{
+    width: 380px;
+    height: 430px;
+    background-color: white;
+}
